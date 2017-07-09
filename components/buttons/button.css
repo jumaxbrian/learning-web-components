@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  background-color: blue;
+  border: 3px solid blue;
+}
+
+.button-sm{
+  width:20px;
+}
+
+.button-md{
+  width:40px;
+}
+
+.button-lg{
+
+}
