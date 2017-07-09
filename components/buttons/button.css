@@ -1,17 +1,33 @@
 .button {
   display: inline-block;
-  background-color: blue;
-  border: 3px solid blue;
+  background-color:#cacbcd;
+  /*border: 3px solid #cacbcd;*/
+  padding: 5px;
+  width: 200px;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 1s;
+  /* removing defaults */
+  text-decoration: none;
+  border: 0;
+  color: black;
+}
+.button:hover {
+  background-color: rgba(100, 100, 100, 0.2);
 }
 
 .button-sm{
-  width:20px;
+  height:20px;
 }
 
-.button-md{
-  width:40px;
+.button-md{  
+  line-height: 40px;
+  vertical-align: middle;
 }
 
 .button-lg{
-
+ line-height: 60px;
+ vertical-align: middle;
 }
