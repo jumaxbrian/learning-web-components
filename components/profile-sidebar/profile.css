@@ -4,7 +4,6 @@
 }
 
 .content{
-    padding: 10px;
     text-align: center;
     border: 2px solid rgba(100, 100, 100, 0.2);
     border-radius: 2px;
@@ -12,6 +11,20 @@
     color: rgba(20, 20, 20, 0.9);
     line-height: 1.5em;
 }
+
+.header > h2{
+    padding: 0; 
+    margin: 0; 
+}
+
+.dev-info{
+  padding: 10px;
+}
+
+.header{
+    background-color: blue;
+}
+
 
 img{
     border: 2px solid blue;
@@ -26,7 +39,7 @@ img{
     font-size: 16px;
     text-align: center;
     transition: background-color 1s;
-  
+    width: 50%;
 }
 
 .link:hover {
