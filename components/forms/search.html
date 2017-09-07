@@ -4,11 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Search Form</title>
-    <link type="text/css" rel="stylesheet" href="forms.css" />
+    <link type="text/css" rel="stylesheet" href="login.css" />
 </head>
 
-<body>
 
-</body>
+<body>
+    <div class="container">
+        <p>Search Animals Form</p>
+        <form>
+            <div>
+                <input type="search" id="search" placeholder="Search..." />
+            </div>
+            <div>
+                <input list="animals" placeholder="Category" />
+                <datalist id="animals">
+                    <option value="Mammals" />
+                    <option value="Birds" />
+                    <option value="Fish" />
+                    <option value="Reptiles" />
+                    <option value="Amphibians" />
+                    <option value="Arthropods" />
+                </datalist>
+            </div>
+            <div class="button">
+                <button type="submit">Search</button>
+            </div>
+
+        </form>
+    </div>
 
 </html>
